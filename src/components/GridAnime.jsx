@@ -5,7 +5,7 @@ import {AnimeItem} from "./AnimeItem";
 
 
 
-const GridAnime = ({anime}) => {
+const GridAnime = (anime) => {
     const {images}=useFetchAnime(anime);
 
     
