@@ -5,7 +5,7 @@ import {AnimeItem} from "./AnimeItem";
 
 
 
-const GridAnime = (anime) => {
+const GridAnime = ({anime}) => {
     const {images}=useFetchAnime(anime);
 
     
@@ -18,9 +18,7 @@ const GridAnime = (anime) => {
                     (<AnimeItem key={image.id}
                     {...image}/>                    
                 ))
-            }
-  
-            
+            }    
 
 
         </div>
