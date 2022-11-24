@@ -10,7 +10,7 @@ export const AddImg= async(anime)=>{
             url: img.images?.downsized_medium.url
         }
     })
-    console.log(gifs);
+    
     return gifs;
 }
 
