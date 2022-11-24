@@ -17,7 +17,7 @@ export const useFetchAnime = (anime) => {
         getAnimeImg();
   
     
-    }, []);
+    });
   return {
     images,
     loading
