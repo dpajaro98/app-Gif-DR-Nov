@@ -9,8 +9,7 @@ export const AddImg= async(anime)=>{
             title: img.title,
             url: img.images?.downsized_medium.url
         }
-    })
-    
+    })    
     return gifs;
 }
 

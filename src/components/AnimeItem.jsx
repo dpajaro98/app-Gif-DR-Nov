@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AnimeItem = ({title,url,id}) => {
+export const AnimeItem = ({title,url}) => {
   
   
   return (
