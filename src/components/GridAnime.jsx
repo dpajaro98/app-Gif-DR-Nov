@@ -12,13 +12,11 @@ const GridAnime = (anime) => {
     return (
         <>
         <h3>{anime}</h3>
-        <div className="card-grid">
-     
+        <div className="card-grid">     
             {
                 images.map((image) => 
                     (<AnimeItem key={image.id}
-                    {...image}/>
-                    
+                    {...image}/>                    
                 ))
             }
   
