@@ -11,6 +11,9 @@ export const GridAnime = ({anime}) => {
     return (
         <>
         <h3>{anime}</h3>
+        {
+            loading && <p>Loading...</p>
+        }
         <div className="card-grid">     
             {
                 images.map((image) => 
