@@ -1,12 +1,11 @@
 import { useFetchAnime } from "../hooks/useFetchAnime";
-import {AnimeItem} from "./AnimeItem";
+import {AnimeItem} from './AnimeItem';
 
 
 
 
-
-const GridAnime = ({anime}) => {
-    const {images}=useFetchAnime(anime);
+export const GridAnime = ({anime}) => {
+    const {images,loading}=useFetchAnime(anime);
 
     
     return (
@@ -28,4 +27,4 @@ const GridAnime = ({anime}) => {
     );
 }
 
-export default GridAnime;
+

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const AddAnime = ({onNewAnime}) => {
+export const AddAnime = ({onNewAnime}) => {
     let [inputValueAnime, setInputValueAnime] = useState("");
 
     const handleInputAnime = ({target}) => {
@@ -29,4 +29,4 @@ const AddAnime = ({onNewAnime}) => {
   );
 };
 
-export default AddAnime;
+

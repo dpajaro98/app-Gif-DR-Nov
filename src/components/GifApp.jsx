@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import AddAnime from "./AddAnime";
-import GridAnime from "./GridAnime";
+import {AddAnime} from "./AddAnime";
+import {GridAnime} from "./GridAnime";
 
 const GifApp = () => {
   const [anime, setAnime] = useState(["Samurai X"]);
